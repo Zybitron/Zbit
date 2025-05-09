@@ -1,56 +1,133 @@
-#Requires AutoHotkey v2.0
+;#Requires AutoHotkey v2.0
 #Include Gdip_All.ahk
+#SingleInstance Force
 
-FindRedPath(region := {x: 0, y: 0, w: 1920, h: 1080}, offsetX := 15, autoClick := true) {
-    if !Gdip_Startup() {
-        MsgBox "GDI+ failed to start"
+ScanPath(startX, startY, width := 800, height := 600, debug := false, dotSpacing := 10, dotColor := "00FF00") {
+    token := Gdip_Startup()
+    if !token {
+        MsgBox("Failed to start GDI+")
         return
     }
 
-    x := region.x, y := region.y, w := region.w, h := region.h
-
-    hbm := Gdip_BitmapFromScreen(x "|" y "|" (x + w) "|" (y + h))
-    if !hbm {
-        MsgBox "Failed to capture screen"
-        return
+    if (debug) {
+        FileAppend("ScanPath: " startX ", " startY ", " width ", " height "`n", "debug_log.txt")
     }
 
-    pBitmap := Gdip_CreateBitmapFromHBITMAP(hbm)
-    Gdip_LockBits(pBitmap, 0, 0, w, h, &Stride, &Scan0, &BitmapData)
+    hdcScreen := GetDC(0)
+    hdcMem := CreateCompatibleDC(hdcScreen)
+    hbmScreen := CreateCompatibleBitmap(hdcScreen, width, height)
+    obm := SelectObject(hdcMem, hbmScreen)
+    BitBlt(hdcMem, 0, 0, width, height, hdcScreen, startX, startY, 0x00CC0020)
+    ReleaseDC(0, hdcScreen)
 
-    found := false
-    result := {}
+    pBitmap := Gdip_CreateBitmapFromHBITMAP(hbmScreen)
 
-    Loop row, 0, h - 1, 2 {
-        Loop col, 0, w - 1, 2 {
-            ARGB := NumGet(Scan0 + (row * Stride) + (col * 4), "UInt")
-            R := (ARGB >> 16) & 0xFF
-            G := (ARGB >> 8) & 0xFF
-            B := ARGB & 0xFF
+    overlayGui := Gui("+AlwaysOnTop -Caption +E0x80000 +ToolWindow", "PathOverlay")
+    overlayGui.BackColor := "000000"
+    overlayGui.Show("x" startX " y" startY " w" width " h" height " NA")
+    hwnd := overlayGui.Hwnd
 
-            if (R >= 160 && G <= 70 && B <= 70) {
-                clickX := x + col + offsetX
-                clickY := y + row
+    hbm := CreateDIBSection(width, height)
+    hdc := CreateCompatibleDC()
+    obm2 := SelectObject(hdc, hbm)
+    graphics := Gdip_GraphicsFromHDC(hdc)
+    Gdip_SetSmoothingMode(graphics, 4)
 
-                if autoClick {
-                    MouseMove(clickX, clickY)
-                    Sleep(100)
-                    Click "Left"
+    pathColor := {r: 0x95, g: 0x22, b: 0x3A}  ; Path color to detect
+    tolerance := 15  ; Reduce tolerance to be more strict about matching color
+    pathPen := Gdip_CreatePen("0xFF" dotColor, 2)
+    dotBrush := Gdip_BrushCreateSolid("0xFF" dotColor)
+
+    prevX := -1
+    prevY := -1
+    prevDirection := ""  ; Track previous direction for corner detection
+    dotRadius := 4
+    drawLeft := true
+
+    dots := []  ; Array to store the positions of the detected dots
+
+    Loop height {
+        y := A_Index - 1
+        maxGroupLen := 0
+        bestStart := -1
+        x := 0
+        while (x < width) {
+            argb := Gdip_GetPixel(pBitmap, x, y)
+            r := (argb >> 16) & 0xFF
+            g := (argb >> 8) & 0xFF
+            b := argb & 0xFF
+
+            ; Tighter color matching threshold to recognize path color more accurately
+            if (Abs(r - pathColor.r) < tolerance && Abs(g - pathColor.g) < tolerance && Abs(b - pathColor.b) < tolerance) {
+                start := x
+                while (x < width) {
+                    argb := Gdip_GetPixel(pBitmap, x, y)
+                    r := (argb >> 16) & 0xFF
+                    g := (argb >> 8) & 0xFF
+                    b := argb & 0xFF
+                    if !(Abs(r - pathColor.r) < tolerance && Abs(g - pathColor.g) < tolerance && Abs(b - pathColor.b) < tolerance)
+                        break
+                    x++
                 }
-
-                result := {x: clickX, y: clickY}
-                found := true
-                break
+                groupLen := x - start
+                if (groupLen > maxGroupLen) {
+                    maxGroupLen := groupLen
+                    bestStart := start
+                }
+            } else {
+                x++
             }
         }
-        if found
-            break
+
+        if (bestStart >= 0) {
+            centerX := bestStart + (maxGroupLen / 2)
+            absX := startX + centerX
+            absY := startY + y
+
+            ; Detect a corner (if direction changes)
+            if (prevX >= 0 && prevY >= 0) {
+                ; Horizontal or Vertical Movement?
+                if (prevX != absX) {  ; Horizontal movement
+                    if (prevDirection != "Horizontal") {
+                        dots.Push({x: absX, y: absY})  ; Add corner
+                        prevDirection := "Horizontal"
+                    }
+                } else {  ; Vertical movement
+                    if (prevDirection != "Vertical") {
+                        dots.Push({x: absX, y: absY})  ; Add corner
+                        prevDirection := "Vertical"
+                    }
+                }
+            }
+
+            ; Draw the line and dot
+            Gdip_DrawLine(graphics, pathPen, prevX - startX, prevY - startY, centerX, y)
+
+            if (Mod(y, dotSpacing) == 0) {
+                Gdip_FillEllipse(graphics, dotBrush, centerX - (dotRadius / 2), y - (dotRadius / 2), dotRadius, dotRadius)
+                dots.Push({x: absX, y: absY})
+            }
+
+            prevX := absX
+            prevY := absY
+        }
     }
 
-    Gdip_UnlockBits(pBitmap, &BitmapData)
-    Gdip_DisposeImage(pBitmap)
-    DeleteObject(hbm)
-    Gdip_Shutdown()
+    UpdateLayeredWindow(hwnd, hdc, startX, startY, width, height)
 
-    return found ? result : ""
+    Gdip_DeleteBrush(dotBrush)
+    Gdip_DeletePen(pathPen)
+    Gdip_DeleteGraphics(graphics)
+    SelectObject(hdc, obm2)
+    DeleteDC(hdc)
+    SelectObject(hdcMem, obm)
+    DeleteDC(hdcMem)
+    DeleteObject(hbm)
+    DeleteObject(hbmScreen)
+    Gdip_DisposeImage(pBitmap)
+    Gdip_Shutdown(token)
+
+    SetTimer(() => overlayGui.Destroy(), -5000)
+
+    return dots  
 }
