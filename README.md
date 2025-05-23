@@ -22,5 +22,9 @@ Zbit AutoPlay is an AutoHotkey v2.0 script designed to automate tasks.
 ## Contributing
 Contributions are welcome! Please follow the guidelines below.
 
+## References
+[Style Guidelines](https://github.com/Zybitron/Zbit/blob/master/docs/STYLE_GUIDELINES.md)
+[Contribution Guidelines](https://github.com/Zybitron/Zbit/blob/master/docs/CONTRIBUTING.md)
+
 ## License
 Specify your license here `Zbit\LICENSE`.
