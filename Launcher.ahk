@@ -11,7 +11,6 @@
 
 /* LIBS AND INCLUDES */
 
-; TODO: Put Neutron in Lib folder
 
 #Include lib\Neutron\Neutron.ahk
 #Include lib\PathScanLib.ahk
@@ -328,5 +327,5 @@ Macro1() {
 ; TODO: Modularize codebase (split macros, GUI, and utilities)
 ; TODO: Add unit tests and CI/CD integration
 ; TODO: Add cleanup logic for graceful shutdown
-; TODO: Automate version management
+; TODO: Automate version management and changelog generation !!!!!!!!!!!!Important!!!!!!!!!!!!!!!!!!!!!!!
 ; TODO: Fix close button in Neutron
