@@ -24,6 +24,7 @@ Contributions are welcome! Please follow the guidelines below.
 
 ## References
 [Style Guidelines](https://github.com/Zybitron/Zbit/blob/master/docs/STYLE_GUIDELINES.md)
+
 [Contribution Guidelines](https://github.com/Zybitron/Zbit/blob/master/docs/CONTRIBUTING.md)
 
 ## License
