@@ -23,3 +23,4 @@ Thank you for considering contributing to Zbit - AutoPlay! To maintain code qual
 
 ## Contact
 For questions, open an issue or contact the maintainer.
+or dm me on discord @l1uka1
