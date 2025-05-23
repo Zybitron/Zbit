@@ -28,4 +28,4 @@ Contributions are welcome! Please follow the guidelines below.
 [Contribution Guidelines](https://github.com/Zybitron/Zbit/blob/master/docs/CONTRIBUTING.md)
 
 ## License
-`Zbit\LICENSE`.
+`Zbit\LICENSE`[MIT-Open-Source](https://github.com/Zybitron/Zbit/blob/master/LICENSE).
