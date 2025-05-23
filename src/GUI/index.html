@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zybit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="title-bar" onmousedown="neutron.DragTitleBar()">
+    <span class="title">Zybit</span>
+    <div class="window-controls">
+        <span class="title-btn title-btn-close" onclick="ahk.Close()">&#10005;</span>
+    </div>
+</header>
+    <div class="main-container">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <h2>Update Log</h2>
+            <ul class="update-log">
+            <li><strong>v0.0.0-0</strong> - Initial release with basic features.</li>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <div>
+                <h2>Macro Selection</h2>
+                <label for="macroSelect">Select Macro:</label>
+                <select id="macroSelect" name="macroSelect" onchange="ahk.updateMacroInfo(event)">
+                    <option value="none">Select a macro</option>
+                    <option value="pathfinder">Path Finder</option>
+                </select>
+
+                <div class="macro-info" id="macroInfo">
+                    <p><strong>Select a macro</strong></p>
+                </div>
+            </div>
+
+            <div>
+                <div class="macro-info" id="keybindInfo">
+                    <p><strong>F1</strong>: Setup Macro</p>
+                    <p><strong>F12</strong>: Toggle Kill Switch</p>
+                    <p><strong>F3</strong>: Reconnect</p>
+                    <p><strong>F4</strong>: Pause</p>
+                </div>
+            </div>
+        </div>
+        <!-- Launch Button -->
+        <button class="launch-btn" onclick="ahk.LaunchMacroNeutron(event)">Launch</button>
+    </div>
+</body>
+</html>

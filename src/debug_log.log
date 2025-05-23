@@ -1,0 +1,431 @@
+[2025-05-21 22:43:46] Escape event triggered - Exiting app
+[2025-05-21 22:44:08] Escape event triggered - Exiting app
+[2025-05-21 22:44:15] Escape event triggered - Exiting app
+[2025-05-22 22:06:56] Escape event triggered - Exiting app
+[2025-05-22 22:07:39] Escape event triggered - Exiting app
+[2025-05-22 22:09:51] updateMacroInfo called
+[2025-05-22 22:09:51] Selected macro for info: pathfinder
+[2025-05-22 22:09:51] Updating macroInfo HTML
+[2025-05-22 22:09:52] LaunchMacroNeutron called
+[2025-05-22 22:09:52] Selected macro: pathfinder
+[2025-05-22 22:09:52] pathfinder mode selected
+[2025-05-22 22:09:53] pathfinder called
+[2025-05-22 22:09:54] Escape event triggered - Exiting app
+[2025-05-22 22:10:38] updateMacroInfo called
+[2025-05-22 22:10:38] Selected macro for info: pathfinder
+[2025-05-22 22:10:38] Updating macroInfo HTML
+[2025-05-22 22:10:39] LaunchMacroNeutron called
+[2025-05-22 22:10:39] Selected macro: pathfinder
+[2025-05-22 22:10:39] pathfinder mode selected
+[2025-05-22 22:10:40] pathfinder called
+[2025-05-22 22:10:40] Setup called
+[2025-05-22 22:10:40] Roblox window not found
+[2025-05-22 22:10:42] Escape event triggered - Exiting app
+[2025-05-22 22:13:39] updateMacroInfo called
+[2025-05-22 22:13:39] Selected macro for info: pathfinder
+[2025-05-22 22:13:39] Updating macroInfo HTML
+[2025-05-22 22:13:41] LaunchMacroNeutron called
+[2025-05-22 22:13:41] Selected macro: pathfinder
+[2025-05-22 22:13:41] pathfinder mode selected
+[2025-05-22 22:13:42] pathfinder called
+[2025-05-22 22:13:42] Setup called
+[2025-05-22 22:13:42] Roblox window found
+[2025-05-22 22:13:42] SetupMacro called
+[2025-05-22 22:13:43] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:13:43] ScanAndPlace called
+[20250522221343] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:13:46] Dots scanned: 17
+[2025-05-22 22:13:46] Filtered dots: 3
+[2025-05-22 22:13:54] Escape event triggered - Exiting app
+[2025-05-22 22:14:14] updateMacroInfo called
+[2025-05-22 22:14:14] Selected macro for info: pathfinder
+[2025-05-22 22:14:14] Updating macroInfo HTML
+[2025-05-22 22:14:16] LaunchMacroNeutron called
+[2025-05-22 22:14:16] Selected macro: pathfinder
+[2025-05-22 22:14:16] pathfinder mode selected
+[2025-05-22 22:14:17] pathfinder called
+[2025-05-22 22:14:17] Setup called
+[2025-05-22 22:14:17] Roblox window found
+[2025-05-22 22:14:17] SetupMacro called
+[2025-05-22 22:14:17] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:14:17] ScanAndPlace called
+[20250522221418] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:14:20] Dots scanned: 240
+[2025-05-22 22:14:20] Filtered dots: 48
+[2025-05-22 22:14:36] Escape event triggered - Exiting app
+[2025-05-22 22:15:24] updateMacroInfo called
+[2025-05-22 22:15:24] Selected macro for info: pathfinder
+[2025-05-22 22:15:24] Updating macroInfo HTML
+[2025-05-22 22:15:25] LaunchMacroNeutron called
+[2025-05-22 22:15:25] Selected macro: pathfinder
+[2025-05-22 22:15:25] pathfinder mode selected
+[2025-05-22 22:15:26] pathfinder called
+[2025-05-22 22:15:26] Setup called
+[2025-05-22 22:15:26] Roblox window found
+[2025-05-22 22:15:26] SetupMacro called
+[2025-05-22 22:15:26] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:15:27] ScanAndPlace called
+[20250522221528] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:15:30] Dots scanned: 18
+[2025-05-22 22:15:30] Filtered dots: 3
+[2025-05-22 22:15:32] Escape event triggered - Exiting app
+[2025-05-22 22:15:45] updateMacroInfo called
+[2025-05-22 22:15:45] Selected macro for info: pathfinder
+[2025-05-22 22:15:45] Updating macroInfo HTML
+[2025-05-22 22:15:46] LaunchMacroNeutron called
+[2025-05-22 22:15:46] Selected macro: pathfinder
+[2025-05-22 22:15:46] pathfinder mode selected
+[2025-05-22 22:15:47] pathfinder called
+[2025-05-22 22:15:47] Setup called
+[2025-05-22 22:15:47] Roblox window found
+[2025-05-22 22:15:47] SetupMacro called
+[2025-05-22 22:15:48] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:15:48] ScanAndPlace called
+[20250522221549] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:15:50] Dots scanned: 16
+[2025-05-22 22:15:50] Filtered dots: 3
+[2025-05-22 22:15:52] Escape event triggered - Exiting app
+[2025-05-22 22:16:17] updateMacroInfo called
+[2025-05-22 22:16:17] Selected macro for info: pathfinder
+[2025-05-22 22:16:17] Updating macroInfo HTML
+[2025-05-22 22:16:19] LaunchMacroNeutron called
+[2025-05-22 22:16:19] Selected macro: pathfinder
+[2025-05-22 22:16:19] pathfinder mode selected
+[2025-05-22 22:16:20] pathfinder called
+[2025-05-22 22:16:20] Setup called
+[2025-05-22 22:16:21] Roblox window found
+[2025-05-22 22:16:21] SetupMacro called
+[2025-05-22 22:16:21] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:16:21] ScanAndPlace called
+[20250522221622] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:16:23] Dots scanned: 18
+[2025-05-22 22:16:24] Filtered dots: 3
+[2025-05-22 22:16:29] Escape event triggered - Exiting app
+[2025-05-22 22:16:34] updateMacroInfo called
+[2025-05-22 22:16:34] Selected macro for info: pathfinder
+[2025-05-22 22:16:34] Updating macroInfo HTML
+[2025-05-22 22:16:36] LaunchMacroNeutron called
+[2025-05-22 22:16:36] Selected macro: pathfinder
+[2025-05-22 22:16:36] pathfinder mode selected
+[2025-05-22 22:16:37] pathfinder called
+[2025-05-22 22:16:37] Setup called
+[2025-05-22 22:16:37] Roblox window found
+[2025-05-22 22:16:37] SetupMacro called
+[2025-05-22 22:16:37] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:16:37] ScanAndPlace called
+[20250522221638] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:16:40] Dots scanned: 18
+[2025-05-22 22:16:40] Filtered dots: 3
+[2025-05-22 22:16:41] Escape event triggered - Exiting app
+[2025-05-22 22:17:03] updateMacroInfo called
+[2025-05-22 22:17:03] Selected macro for info: pathfinder
+[2025-05-22 22:17:03] Updating macroInfo HTML
+[2025-05-22 22:17:04] LaunchMacroNeutron called
+[2025-05-22 22:17:04] Selected macro: pathfinder
+[2025-05-22 22:17:04] pathfinder mode selected
+[2025-05-22 22:17:05] pathfinder called
+[2025-05-22 22:17:05] Setup called
+[2025-05-22 22:17:05] Roblox window found
+[2025-05-22 22:17:05] SetupMacro called
+[2025-05-22 22:17:06] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:17:06] ScanAndPlace called
+[20250522221707] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:17:08] Escape event triggered - Exiting app
+[2025-05-22 22:17:21] updateMacroInfo called
+[2025-05-22 22:17:21] Selected macro for info: pathfinder
+[2025-05-22 22:17:21] Updating macroInfo HTML
+[2025-05-22 22:17:22] LaunchMacroNeutron called
+[2025-05-22 22:17:22] Selected macro: pathfinder
+[2025-05-22 22:17:22] pathfinder mode selected
+[2025-05-22 22:17:22] pathfinder called
+[2025-05-22 22:17:22] Setup called
+[2025-05-22 22:17:23] Roblox window found
+[2025-05-22 22:17:23] SetupMacro called
+[2025-05-22 22:17:23] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:17:23] ScanAndPlace called
+[20250522221724] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:17:26] Dots scanned: 21
+[2025-05-22 22:17:26] Filtered dots: 4
+[2025-05-22 22:17:26] Escape event triggered - Exiting app
+[2025-05-22 22:17:50] updateMacroInfo called
+[2025-05-22 22:17:50] Selected macro for info: pathfinder
+[2025-05-22 22:17:50] Updating macroInfo HTML
+[2025-05-22 22:17:51] LaunchMacroNeutron called
+[2025-05-22 22:17:51] Selected macro: pathfinder
+[2025-05-22 22:17:51] pathfinder mode selected
+[2025-05-22 22:17:51] pathfinder called
+[2025-05-22 22:17:51] Setup called
+[2025-05-22 22:17:51] Roblox window found
+[2025-05-22 22:17:51] SetupMacro called
+[2025-05-22 22:17:51] BetterClick called at (732, 572) with button: Left
+[2025-05-22 22:17:52] ScanAndPlace called
+[20250522221753] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:17:54] Dots scanned: 20
+[2025-05-22 22:17:54] Filtered dots: 4
+[2025-05-22 22:17:54] Escape event triggered - Exiting app
+[2025-05-22 22:18:19] updateMacroInfo called
+[2025-05-22 22:18:19] Selected macro for info: pathfinder
+[2025-05-22 22:18:19] Updating macroInfo HTML
+[2025-05-22 22:18:21] LaunchMacroNeutron called
+[2025-05-22 22:18:21] Selected macro: pathfinder
+[2025-05-22 22:18:21] pathfinder mode selected
+[2025-05-22 22:18:21] pathfinder called
+[2025-05-22 22:18:21] Setup called
+[2025-05-22 22:18:21] Roblox window found
+[2025-05-22 22:18:21] SetupMacro called
+[2025-05-22 22:18:21] ScanAndPlace called
+[20250522221822] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:18:24] Dots scanned: 220
+[2025-05-22 22:18:24] Filtered dots: 44
+[2025-05-22 22:18:35] Escape event triggered - Exiting app
+[2025-05-22 22:18:49] updateMacroInfo called
+[2025-05-22 22:18:49] Selected macro for info: pathfinder
+[2025-05-22 22:18:49] Updating macroInfo HTML
+[2025-05-22 22:18:50] LaunchMacroNeutron called
+[2025-05-22 22:18:50] Selected macro: pathfinder
+[2025-05-22 22:18:50] pathfinder mode selected
+[2025-05-22 22:18:50] pathfinder called
+[2025-05-22 22:18:50] Setup called
+[2025-05-22 22:18:50] Roblox window found
+[2025-05-22 22:18:50] SetupMacro called
+[2025-05-22 22:18:51] ScanAndPlace called
+[20250522221852] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:18:53] Dots scanned: 21
+[2025-05-22 22:18:53] Filtered dots: 4
+[2025-05-22 22:18:53] Clicking dot at (568.0, 570)
+[2025-05-22 22:18:53] BetterClick: Invalid coordinates
+[2025-05-22 22:18:54] checkiftrue called
+[2025-05-22 22:18:55] PixelGetColor at (221, 323): 0x474D61
+[2025-05-22 22:18:55] Color mismatch: expected 0x090909, got 0x474D61
+[2025-05-22 22:18:55] checkiftrue failed at (568.0, 570)
+[2025-05-22 22:18:55] Clicking dot at (326.5, 584)
+[2025-05-22 22:18:55] BetterClick: Invalid coordinates
+[2025-05-22 22:18:55] checkiftrue called
+[2025-05-22 22:18:56] PixelGetColor at (221, 323): 0x151515
+[2025-05-22 22:18:56] Color mismatch: expected 0x090909, got 0x151515
+[2025-05-22 22:18:56] checkiftrue failed at (326.5, 584)
+[2025-05-22 22:18:56] Clicking dot at (579.0, 601)
+[2025-05-22 22:18:56] BetterClick: Invalid coordinates
+[2025-05-22 22:18:56] Escape event triggered - Exiting app
+[2025-05-22 22:18:59] updateMacroInfo called
+[2025-05-22 22:18:59] Selected macro for info: pathfinder
+[2025-05-22 22:18:59] Updating macroInfo HTML
+[2025-05-22 22:19:00] LaunchMacroNeutron called
+[2025-05-22 22:19:00] Selected macro: pathfinder
+[2025-05-22 22:19:00] pathfinder mode selected
+[2025-05-22 22:19:00] pathfinder called
+[2025-05-22 22:19:00] Setup called
+[2025-05-22 22:19:00] Roblox window found
+[2025-05-22 22:19:00] SetupMacro called
+[2025-05-22 22:19:00] ScanAndPlace called
+[20250522221901] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:19:03] Dots scanned: 224
+[2025-05-22 22:19:03] Filtered dots: 44
+[2025-05-22 22:19:03] Clicking dot at (140.0, 55)
+[2025-05-22 22:19:03] BetterClick: Invalid coordinates
+[2025-05-22 22:19:03] checkiftrue called
+[2025-05-22 22:19:04] PixelGetColor at (221, 323): 0x475364
+[2025-05-22 22:19:04] Color mismatch: expected 0x090909, got 0x475364
+[2025-05-22 22:19:04] checkiftrue failed at (140.0, 55)
+[2025-05-22 22:19:05] Clicking dot at (102.5, 65)
+[2025-05-22 22:19:05] BetterClick: Invalid coordinates
+[2025-05-22 22:19:05] checkiftrue called
+[2025-05-22 22:19:06] PixelGetColor at (221, 323): 0x484E60
+[2025-05-22 22:19:06] Color mismatch: expected 0x090909, got 0x484E60
+[2025-05-22 22:19:06] checkiftrue failed at (102.5, 65)
+[2025-05-22 22:19:06] Clicking dot at (101.5, 73)
+[2025-05-22 22:19:06] BetterClick: Invalid coordinates
+[2025-05-22 22:19:06] checkiftrue called
+[2025-05-22 22:19:07] PixelGetColor at (221, 323): 0x484C5B
+[2025-05-22 22:19:07] Color mismatch: expected 0x090909, got 0x484C5B
+[2025-05-22 22:19:07] checkiftrue failed at (101.5, 73)
+[2025-05-22 22:19:07] Clicking dot at (240.5, 85)
+[2025-05-22 22:19:07] BetterClick: Invalid coordinates
+[2025-05-22 22:19:07] checkiftrue called
+[2025-05-22 22:19:08] PixelGetColor at (221, 323): 0x444956
+[2025-05-22 22:19:08] Color mismatch: expected 0x090909, got 0x444956
+[2025-05-22 22:19:08] checkiftrue failed at (240.5, 85)
+[2025-05-22 22:19:08] Clicking dot at (322.0, 115)
+[2025-05-22 22:19:08] BetterClick: Invalid coordinates
+[2025-05-22 22:19:08] checkiftrue called
+[2025-05-22 22:19:09] PixelGetColor at (221, 323): 0x4E5163
+[2025-05-22 22:19:09] Color mismatch: expected 0x090909, got 0x4E5163
+[2025-05-22 22:19:09] checkiftrue failed at (322.0, 115)
+[2025-05-22 22:19:09] Clicking dot at (321.5, 123)
+[2025-05-22 22:19:09] BetterClick: Invalid coordinates
+[2025-05-22 22:19:09] checkiftrue called
+[2025-05-22 22:19:10] PixelGetColor at (221, 323): 0x151515
+[2025-05-22 22:19:10] Color mismatch: expected 0x090909, got 0x151515
+[2025-05-22 22:19:10] checkiftrue failed at (321.5, 123)
+[2025-05-22 22:19:10] Clicking dot at (321.5, 128)
+[2025-05-22 22:19:10] BetterClick: Invalid coordinates
+[2025-05-22 22:19:10] checkiftrue called
+[2025-05-22 22:19:10] Escape event triggered - Exiting app
+[2025-05-22 22:20:08] updateMacroInfo called
+[2025-05-22 22:20:08] Selected macro for info: pathfinder
+[2025-05-22 22:20:08] Updating macroInfo HTML
+[2025-05-22 22:20:10] LaunchMacroNeutron called
+[2025-05-22 22:20:10] Selected macro: pathfinder
+[2025-05-22 22:20:10] pathfinder mode selected
+[2025-05-22 22:20:10] pathfinder called
+[2025-05-22 22:20:10] Setup called
+[2025-05-22 22:20:10] Roblox window found
+[2025-05-22 22:20:10] SetupMacro called
+[2025-05-22 22:20:11] ScanAndPlace called
+[20250522222012] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:20:13] Dots scanned: 191
+[2025-05-22 22:20:13] Filtered dots: 38
+[2025-05-22 22:20:13] Clicking dot at (111.5, 52)
+[2025-05-22 22:20:13] BetterClick: Invalid coordinates
+[2025-05-22 22:20:13] checkiftrue called
+[2025-05-22 22:20:14] PixelGetColor at (221, 323): 0x434855
+[2025-05-22 22:20:14] Color mismatch: expected 0x090909, got 0x434855
+[2025-05-22 22:20:14] checkiftrue failed at (111.5, 52)
+[2025-05-22 22:20:14] Clicking dot at (235.0, 82)
+[2025-05-22 22:20:14] BetterClick: Invalid coordinates
+[2025-05-22 22:20:14] checkiftrue called
+[2025-05-22 22:20:15] PixelGetColor at (221, 323): 0x484D5C
+[2025-05-22 22:20:15] Color mismatch: expected 0x090909, got 0x484D5C
+[2025-05-22 22:20:15] checkiftrue failed at (235.0, 82)
+[2025-05-22 22:20:15] Clicking dot at (278.5, 117)
+[2025-05-22 22:20:15] BetterClick: Invalid coordinates
+[2025-05-22 22:20:15] checkiftrue called
+[2025-05-22 22:20:16] PixelGetColor at (221, 323): 0x434957
+[2025-05-22 22:20:16] Color mismatch: expected 0x090909, got 0x434957
+[2025-05-22 22:20:16] checkiftrue failed at (278.5, 117)
+[2025-05-22 22:20:16] Clicking dot at (291.5, 129)
+[2025-05-22 22:20:16] BetterClick: Invalid coordinates
+[2025-05-22 22:20:16] checkiftrue called
+[2025-05-22 22:20:17] PixelGetColor at (221, 323): 0x434855
+[2025-05-22 22:20:17] Color mismatch: expected 0x090909, got 0x434855
+[2025-05-22 22:20:17] checkiftrue failed at (291.5, 129)
+[2025-05-22 22:20:17] Clicking dot at (291.5, 136)
+[2025-05-22 22:20:17] BetterClick: Invalid coordinates
+[2025-05-22 22:20:17] checkiftrue called
+[2025-05-22 22:20:18] PixelGetColor at (221, 323): 0x434855
+[2025-05-22 22:20:18] Color mismatch: expected 0x090909, got 0x434855
+[2025-05-22 22:20:19] checkiftrue failed at (291.5, 136)
+[2025-05-22 22:20:19] Clicking dot at (314.0, 152)
+[2025-05-22 22:20:19] BetterClick: Invalid coordinates
+[2025-05-22 22:20:19] checkiftrue called
+[2025-05-22 22:20:20] PixelGetColor at (221, 323): 0x495060
+[2025-05-22 22:20:20] Color mismatch: expected 0x090909, got 0x495060
+[2025-05-22 22:20:20] checkiftrue failed at (314.0, 152)
+[2025-05-22 22:20:20] Clicking dot at (313.0, 158)
+[2025-05-22 22:20:20] BetterClick: Invalid coordinates
+[2025-05-22 22:20:20] checkiftrue called
+[2025-05-22 22:20:21] PixelGetColor at (221, 323): 0x474D5A
+[2025-05-22 22:20:21] Color mismatch: expected 0x090909, got 0x474D5A
+[2025-05-22 22:20:21] checkiftrue failed at (313.0, 158)
+[2025-05-22 22:20:21] Clicking dot at (313.5, 175)
+[2025-05-22 22:20:21] BetterClick: Invalid coordinates
+[2025-05-22 22:20:21] checkiftrue called
+[2025-05-22 22:20:22] PixelGetColor at (221, 323): 0x444C5C
+[2025-05-22 22:20:22] Color mismatch: expected 0x090909, got 0x444C5C
+[2025-05-22 22:20:22] checkiftrue failed at (313.5, 175)
+[2025-05-22 22:20:22] Clicking dot at (289.0, 195)
+[2025-05-22 22:20:22] BetterClick: Invalid coordinates
+[2025-05-22 22:20:22] checkiftrue called
+[2025-05-22 22:20:23] PixelGetColor at (221, 323): 0x444B5C
+[2025-05-22 22:20:23] Color mismatch: expected 0x090909, got 0x444B5C
+[2025-05-22 22:20:23] checkiftrue failed at (289.0, 195)
+[2025-05-22 22:20:23] Clicking dot at (278.5, 205)
+[2025-05-22 22:20:23] BetterClick: Invalid coordinates
+[2025-05-22 22:20:23] checkiftrue called
+[2025-05-22 22:20:24] PixelGetColor at (221, 323): 0x444C5C
+[2025-05-22 22:20:24] Color mismatch: expected 0x090909, got 0x444C5C
+[2025-05-22 22:20:24] checkiftrue failed at (278.5, 205)
+[2025-05-22 22:20:24] Clicking dot at (310.0, 215)
+[2025-05-22 22:20:24] BetterClick: Invalid coordinates
+[2025-05-22 22:20:24] checkiftrue called
+[2025-05-22 22:20:25] PixelGetColor at (221, 323): 0x444B5B
+[2025-05-22 22:20:25] Color mismatch: expected 0x090909, got 0x444B5B
+[2025-05-22 22:20:25] checkiftrue failed at (310.0, 215)
+[2025-05-22 22:20:25] Clicking dot at (310.5, 225)
+[2025-05-22 22:20:25] BetterClick: Invalid coordinates
+[2025-05-22 22:20:25] checkiftrue called
+[2025-05-22 22:20:25] Escape event triggered - Exiting app
+[2025-05-22 22:21:38] updateMacroInfo called
+[2025-05-22 22:21:38] Selected macro for info: pathfinder
+[2025-05-22 22:21:38] Updating macroInfo HTML
+[2025-05-22 22:21:39] LaunchMacroNeutron called
+[2025-05-22 22:21:39] Selected macro: pathfinder
+[2025-05-22 22:21:39] pathfinder mode selected
+[2025-05-22 22:21:39] pathfinder called
+[2025-05-22 22:21:39] Setup called
+[2025-05-22 22:21:39] Roblox window not found
+[2025-05-22 22:24:35] LaunchMacroNeutron called
+[2025-05-22 22:24:35] Selected macro: pathfinder
+[2025-05-22 22:24:35] pathfinder mode selected
+[2025-05-22 22:24:35] pathfinder called
+[2025-05-22 22:24:35] Setup called
+[2025-05-22 22:24:35] Roblox window found
+[2025-05-22 22:24:35] SetupMacro called
+[2025-05-22 22:24:35] ScanAndPlace called
+[20250522222437] ScanPath called with parameters: StartX=27, StartY=15, Width=800, Height=600, DotSpacing=10, DotColor=200FF00
+[2025-05-22 22:24:38] Dots scanned: 142
+[2025-05-22 22:24:43] Filtered dots: 28
+[2025-05-22 22:24:43] Clicking dot at (520.5, 70)
+[2025-05-22 22:24:43] BetterClick: Invalid coordinates
+[2025-05-22 22:24:43] checkiftrue called
+[2025-05-22 22:24:44] PixelGetColor at (221, 323): 0x00289F
+[2025-05-22 22:24:44] Color mismatch: expected 0x090909, got 0x00289F
+[2025-05-22 22:24:44] checkiftrue failed at (520.5, 70)
+[2025-05-22 22:24:44] Clicking dot at (540.5, 89)
+[2025-05-22 22:24:44] BetterClick: Invalid coordinates
+[2025-05-22 22:24:44] checkiftrue called
+[2025-05-22 22:24:45] PixelGetColor at (221, 323): 0x00299E
+[2025-05-22 22:24:45] Color mismatch: expected 0x090909, got 0x00299E
+[2025-05-22 22:24:45] checkiftrue failed at (540.5, 89)
+[2025-05-22 22:24:45] Clicking dot at (544.0, 101)
+[2025-05-22 22:24:46] BetterClick: Invalid coordinates
+[2025-05-22 22:24:46] checkiftrue called
+[2025-05-22 22:24:47] PixelGetColor at (221, 323): 0x002DA1
+[2025-05-22 22:24:47] Color mismatch: expected 0x090909, got 0x002DA1
+[2025-05-22 22:24:47] checkiftrue failed at (544.0, 101)
+[2025-05-22 22:24:47] Clicking dot at (586.0, 107)
+[2025-05-22 22:24:47] BetterClick: Invalid coordinates
+[2025-05-22 22:24:47] checkiftrue called
+[2025-05-22 22:24:48] PixelGetColor at (221, 323): 0x00289E
+[2025-05-22 22:24:48] Color mismatch: expected 0x090909, got 0x00289E
+[2025-05-22 22:24:48] checkiftrue failed at (586.0, 107)
+[2025-05-22 22:24:48] Clicking dot at (536.0, 115)
+[2025-05-22 22:24:48] BetterClick: Invalid coordinates
+[2025-05-22 22:24:48] checkiftrue called
+[2025-05-22 22:24:49] PixelGetColor at (221, 323): 0x002CA0
+[2025-05-22 22:24:49] Color mismatch: expected 0x090909, got 0x002CA0
+[2025-05-22 22:24:49] checkiftrue failed at (536.0, 115)
+[2025-05-22 22:24:49] Clicking dot at (467.5, 165)
+[2025-05-22 22:24:49] BetterClick: Invalid coordinates
+[2025-05-22 22:24:49] checkiftrue called
+[2025-05-22 22:24:50] PixelGetColor at (221, 323): 0x00279E
+[2025-05-22 22:24:50] Color mismatch: expected 0x090909, got 0x00279E
+[2025-05-22 22:24:50] checkiftrue failed at (467.5, 165)
+[2025-05-22 22:24:50] Clicking dot at (500.0, 195)
+[2025-05-22 22:24:50] BetterClick: Invalid coordinates
+[2025-05-22 22:24:50] checkiftrue called
+[2025-05-22 22:24:51] PixelGetColor at (221, 323): 0x00299F
+[2025-05-22 22:24:51] Color mismatch: expected 0x090909, got 0x00299F
+[2025-05-22 22:24:51] checkiftrue failed at (500.0, 195)
+[2025-05-22 22:24:51] Clicking dot at (439.5, 211)
+[2025-05-22 22:24:51] BetterClick: Invalid coordinates
+[2025-05-22 22:24:51] checkiftrue called
+[2025-05-22 22:24:52] PixelGetColor at (221, 323): 0x00279E
+[2025-05-22 22:24:52] Color mismatch: expected 0x090909, got 0x00279E
+[2025-05-22 22:24:52] checkiftrue failed at (439.5, 211)
+[2025-05-22 22:24:52] Clicking dot at (438.0, 219)
+[2025-05-22 22:24:52] BetterClick: Invalid coordinates
+[2025-05-22 22:24:52] checkiftrue called
+[2025-05-22 22:24:53] PixelGetColor at (221, 323): 0x000719
+[2025-05-22 22:24:53] Color mismatch: expected 0x090909, got 0x000719
+[2025-05-22 22:24:53] checkiftrue failed at (438.0, 219)
+[2025-05-22 22:24:53] Clicking dot at (437.0, 226)
+[2025-05-22 22:24:53] BetterClick: Invalid coordinates
+[2025-05-22 22:24:53] checkiftrue called
+[2025-05-22 22:24:54] PixelGetColor at (221, 323): 0x00299F
+[2025-05-22 22:24:54] Color mismatch: expected 0x090909, got 0x00299F
+[2025-05-22 22:24:54] checkiftrue failed at (437.0, 226)
+[2025-05-22 22:24:54] Clicking dot at (437.5, 235)
+[2025-05-22 22:24:54] BetterClick: Invalid coordinates
+[2025-05-22 22:24:54] checkiftrue called
+[2025-05-22 22:24:55] Escape event triggered - Exiting app
