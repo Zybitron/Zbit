@@ -1,7 +1,7 @@
 /************************************************************************
  * @description Launcher for the Zybit
  * @author Luka ...
- * @license Open Source
+ * @license MIT-Open-Source
  * @date 2025/05/20
  * @version v0.0.0-0
  ***********************************************************************/
